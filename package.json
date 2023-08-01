@@ -1,0 +1,20 @@
+{
+  "name": "webhook-laa-chatbot",
+  "version": "1.0.0",
+  "description": "webhook for chatbot laa fri",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "I Made Indra Kusuma",
+  "license": "ISC",
+  "dependencies": {
+    "actions-on-google": "^3.0.0",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
