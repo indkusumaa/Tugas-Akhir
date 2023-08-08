@@ -5,6 +5,18 @@ const app = express().use(bodyParser.json());
 const port = process.env.PORT || 3000;
 const _function = require("./function");
 app.listen(port, () => {
+  // const today = Date.now();
+  // const d = new Date();
+  // console.log(d.toLocaleString('default',{
+  //   day:'numeric',
+  //   month:'short',
+  //   year:"numeric",
+  //   hour:"numeric",
+  //   minute:"numeric",
+  //   second:"numeric",
+  //   timeZoneName:"short",
+  //   timeZone:"Asia/Hong_kong",  
+  // }))
   console.log(`server is listening on port ${port}`);
 });
 
